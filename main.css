@@ -1,0 +1,24 @@
+body{
+    margin: 0 0;
+}
+
+#ocean {
+    background-image: url("space.jpg");
+    width: 900px;
+    height: 700px;
+    background-size: cover;
+}
+
+.player {
+    width: 70px;
+    height: 75px;
+    background-image: url("player.png");
+    position: absolute;
+}
+
+.enemy {
+    width: 70px;
+    height: 75px;
+    background-image: url("enemy.png");
+    position: absolute;
+}
