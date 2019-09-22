@@ -1,0 +1,31 @@
+body{
+    margin: 0 0;
+}
+
+#ocean {
+    width: 900px;
+    height: 700px;
+    background-image: url("space.jpg");
+    background-size: cover;
+}
+
+.player {
+    width: 70px;
+    height: 75px;
+    background-image: url("player.png");
+    position: absolute;
+}
+
+.enemy {
+    width: 70px;
+    height: 75px;
+    background-image: url("enemy.png");
+    position: absolute;
+}
+
+.missile {
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    background-color: grey;
+}
